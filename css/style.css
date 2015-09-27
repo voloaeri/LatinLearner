@@ -30,7 +30,8 @@ body {
 .item {
     /*border-bottom: 1px solid #7BAFD4;*/
     /*width: 70px;*/
-    font: bold 20px/25px 'Quicksand', sans-serif;
+    /*font: 300 18px/25px 'Quicksand', sans-serif;*/
+    font: 300 15px/25px 'Inknut Antiqua', serif;
     /*color: linen;*/
     color: #202020;
     text-align: center;
@@ -38,35 +39,77 @@ body {
     float: right;
     margin: 0 0 0 25;
     /*border: 1px solid red;*/
+    font-weight: 1800;
 }
+button{
+  border-top: 1px solid #7bafd4;
+   /*background: #7db1d4;*/
+   /*background: -webkit-gradient(linear, left top, left bottom, from(#7aafd4), to(#7db1d4));
+   background: -webkit-linear-gradient(top, #7aafd4, #7db1d4);
+   background: -moz-linear-gradient(top, #7aafd4, #7db1d4);
+   background: -ms-linear-gradient(top, #7aafd4, #7db1d4);
+   background: -o-linear-gradient(top, #7aafd4, #7db1d4);*/
+   /*padding: 3px 6px;*/
+   /*-webkit-border-radius: 100px;
+   -moz-border-radius: 9px;
+   border-radius: 9px;*/
+   /*-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;*/
+   color: green;
+   font-size: 14px;
+   font-weight: 300;
+   line-height: 2;
+   font-family: 'Inknut Antiqua', serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+button:hover {
+   /*border-top-color: #336687;
+   background: #336687;*/
+   color: red;
+   }
+button:active {
+   /*border-top-color: #7bafd4;
+   background: #7bafd4;*/
+   color: pink;
+   }
 .main {
     text-align: center;
     padding: 10 10 10 30;
     margin: 20;
-    /*border: 1px solid green;*/
+    border: 1px solid green;
 }
 .vocab {
-    font: 900 26px/25px 'Quicksand', sans-serif;
+    /*font: 700 30px/35px 'Quicksand', sans-serif;*/
+    font: 300 30px/35px 'Inknut Antiqua', serif;
     /*color: linen;*/
     color: #202020;
     letter-spacing: -1px;
-    padding: 5 5 5 5;
+    padding: 5 5 0 5;
     margin: 0 0 15 0;
-    /*border: 2px solid black;*/
+    border: 2px solid black;
 }
 #subject{
-  margin-left: 40%;
-  margin-right: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 #noun{
   margin-left: 40%;
   margin-right: 40%;
 }
+#writehere{
+  padding:0;
+  margin: 0;
+}
 footer {
     /*  color: linen; */
     color: #202020;
     text-align: right;
-    font: normal 14px/10px 'Quicksand', sans-serif;
+    /*font: normal 14px/10px 'Quicksand', sans-serif;*/
+    font: 300 12px/10px 'Inknut Antiqua', serif;
+    letter-spacing: -1px;
     border-top: 1px solid #7BAFD4;
     margin: 20;
     padding: 10;
