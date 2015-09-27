@@ -1,47 +1,43 @@
 // hannah's first line
 
-var titleShow = true
+// $('#top').mouseenter(function(){
+//   $('#title').fadeIn(500);
+// });
+//
+// $('#top').mouseleave(function(){
+//   $('#title').fadeOut(500);
+// });
 
+var black = true;
 $(document).ready(function(){
-  $('#title').fadeOut(1000);
-    if (onTrack == false){
-      $('#title').mouseover(1000);
-      // onTrack = false;
-  // };
+  $('#title').fadeOut(2000);
+  $("#top").hover(function(){
+    if(black == true){
+      $('#title').fadeIn(700);
+      black = false;
+    }
+    else {
+      $('#title').fadeOut(700);
+      black = true;
+    };
+  });
 });
 
+var menu = true;
+$(document).ready(function(){
+  $('.item').fadeOut(2000);
+  $(".nav").hover(function(){
+    if(menu == true){
+      $('.item').fadeIn(700);
+      menu = false;
+    }
+    else {
+      $('.item').fadeOut(700);
+      menu = true;
+    };
+  });
+});
 
-// var isShown = true;
-// $(document).ready(function(){
-//   $("#menu").click(function(){
-//     if(isShown == true){
-//       $('.nav').fadeOut(500);
-//       isShown = false;
-//     }
-//     else {
-//       $('.nav').fadeIn(500);
-//       isShown = true;
-//     }
-//   });
-// });
-
-// var mouseOff = true;
-
-// $(document).hover(function(){
-//   $('#nav1').mousever(function(){
-
-//   });
-// });
-
-
-// $(document).hover(function () {
-//   $('#title').fadeOut(1000);
-//   $("#nav1").hover({
-
-
-// $('#nav1').mouseout(function(){
-//   $('#nav1').fadeIn(1000);
-// });
 
 // $('#noun').hover(function(){
 //     $(this).css('color', 'pink');
@@ -49,7 +45,6 @@ $(document).ready(function(){
 // });
 
 // hello("testing");
-//
 // function hello(foo){
 //   var name = 'hannah is cute';
 // console.log(foo);
