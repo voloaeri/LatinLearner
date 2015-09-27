@@ -1,29 +1,37 @@
 // hannah's first line
 
-// $(document).mouseover(function(){
-//   $('#title').fadeOut(1000);
-//   $('#nav1').fadeOut(2000);
-// })
+var titleShow = true
 
 $(document).ready(function(){
-  $("button").click(function(){
-    $(".nav").hide("slow")
-    // ,
-    // function(){
-      // alert("This paragraph is now hidden.");
-    // });
-  });
+  $('#title').fadeOut(1000);
+    if (onTrack == false){
+      $('#title').mouseover(1000);
+      // onTrack = false;
+  // };
 });
-// 
+
+
+// var isShown = true;
 // $(document).ready(function(){
-//   $("button").click(function(){
-//     $(".nav").show("slow")
-//     // , function(){
-//     //   alert("This paragraph is now shown.");
-//     // });
+//   $("#menu").click(function(){
+//     if(isShown == true){
+//       $('.nav').fadeOut(500);
+//       isShown = false;
+//     }
+//     else {
+//       $('.nav').fadeIn(500);
+//       isShown = true;
+//     }
 //   });
 // });
 
+// var mouseOff = true;
+
+// $(document).hover(function(){
+//   $('#nav1').mousever(function(){
+
+//   });
+// });
 
 
 // $(document).hover(function () {
@@ -35,15 +43,11 @@ $(document).ready(function(){
 //   $('#nav1').fadeIn(1000);
 // });
 
-
-//
 // $('#noun').hover(function(){
 //     $(this).css('color', 'pink');
 //   $(this).text('HANNAH IS BOOTYFUL');
 // });
-//
-//
-//
+
 // hello("testing");
 //
 // function hello(foo){
