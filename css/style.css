@@ -37,10 +37,9 @@ body {
     letter-spacing: -1px;
     float: right;
     margin: 0 0 0 25;
-    /*border: 1px solid red;*/
     font-weight: 1800;
+    /*border: 1px solid red;*/
 }
-
 .button {
    border: 0px solid #0a3c59;
    background: #3e779d;
@@ -88,12 +87,11 @@ body {
    background-image: -ms-linear-gradient(top, #3e779d 0%, #65a9d7 100%);
    color: #fff;
    }
-
 .main {
     text-align: center;
     padding: 10 10 10 30;
     margin: 20;
-    border: 1px solid green;
+    /*border: 1px solid green;*/
 }
 .vocab {
     /*font: 700 30px/35px 'Quicksand', sans-serif;*/
@@ -103,7 +101,7 @@ body {
     letter-spacing: -1px;
     padding: 5 5 0 5;
     margin: 0 0 15 0;
-    border: 2px solid black;
+    /*border: 2px solid black;*/
 }
 #subject{
   margin-left: 30%;

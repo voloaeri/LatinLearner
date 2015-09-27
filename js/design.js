@@ -8,36 +8,36 @@
 //   $('#title').fadeOut(500);
 // });
 // FOR THE DIFFERENT HEADER
-// var black = true;
-// $(document).ready(function(){
-//   $('#title').fadeOut(2000);
-//   $('#top').hover(function(){
-//     if(black == true){
-//       $('#title').fadeIn(700);
-//       black = false;
-//     }
-//     else {
-//       $('#title').fadeOut(700);
-//       black = true;
-//     };
-//   });
-// });
-// // THIS IS THE MENU
-// var menu = true;
-// $(document).ready(function(){
-//   $('.item').fadeOut(2000);
-//   $(".nav").hover(function(){
-//     if(menu == true){
-//       $('.item').fadeIn(700);
-//       menu = false;
-//     }
-//     else {
-//       $('.item').fadeOut(700);
-//       menu = true;
-//     };
-//   });
-// });
-// // THESE ARE THE BUTTONS
+var black = true;
+$(document).ready(function(){
+  $('#title').fadeOut(2000);
+  $('#top').hover(function(){
+    if(black == true){
+      $('#title').fadeIn(700);
+      black = false;
+    }
+    else {
+      $('#title').fadeOut(700);
+      black = true;
+    };
+  });
+});
+// THIS IS THE MENU
+var menu = true;
+$(document).ready(function(){
+  $('.item').fadeOut(2000);
+  $(".nav").hover(function(){
+    if(menu == true){
+      $('.item').fadeIn(700);
+      menu = false;
+    }
+    else {
+      $('.item').fadeOut(700);
+      menu = true;
+    };
+  });
+});
+// THESE ARE THE BUTTONS
 function changeDark(){
   document.body.style.background = '#202020';
   document.getElementById("title").style.color = 'linen';
@@ -59,21 +59,21 @@ function changeLight(color){
   document.getElementById("anv").style.color = '202020';
   document.getElementById("avn").style.color = '202020';
 };
-// // THIS IS THE FOOTER
-// var food = true;
-// $(document).ready(function(){
-//   $('mother').fadeOut(2000);
-//   $('#foot').hover(function(){
-//     if(food == true){
-//       $('#foot').fadeIn(700);
-//       food = false;
-//     }
-//     else {
-//       $('#foot').fadeOut(700);
-//       food = true;
-//     };
-//   });
-// });
+// THIS IS THE FOOTER
+var food = true;
+$(document).ready(function(){
+  $('mother').fadeOut(1000);
+  $('#foot').hover(function(){
+    if(food == true){
+      $('#foot').fadeIn(700);
+      food = false;
+    }
+    else {
+      $('#foot').fadeOut(700);
+      food = true;
+    };
+  });
+});
 
 
 // $('#noun').hover(function(){
