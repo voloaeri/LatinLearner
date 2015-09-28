@@ -11,6 +11,7 @@
 var black = true;
 $(document).ready(function(){
   $('#title').fadeOut(2000);
+  $('')
   $('#top').hover(function(){
     if(black == true){
       $('#title').fadeIn(700);
@@ -37,6 +38,22 @@ $(document).ready(function(){
     };
   });
 });
+// THIS IS THE FOOTER
+// var x = true;
+// $(document).ready(function(){
+//   $('mother').fadeOut(1000);
+  // $('#foot').hover(function(){
+  //   if(x == true){
+  //     $('#foot').fadeIn(700);
+  //     x = false;
+  //   }
+  //   else {
+  //     $('#foot').fadeOut(700);
+  //     x = true;
+    // };
+  // });
+});
+
 // THESE ARE THE BUTTONS
 function changeDark(){
   document.body.style.background = '#202020';
@@ -59,21 +76,6 @@ function changeLight(color){
   document.getElementById("anv").style.color = '202020';
   document.getElementById("avn").style.color = '202020';
 };
-// THIS IS THE FOOTER
-var food = true;
-$(document).ready(function(){
-  $('mother').fadeOut(1000);
-  $('#foot').hover(function(){
-    if(food == true){
-      $('#foot').fadeIn(700);
-      food = false;
-    }
-    else {
-      $('#foot').fadeOut(700);
-      food = true;
-    };
-  });
-});
 
 
 // $('#noun').hover(function(){

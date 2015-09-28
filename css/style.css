@@ -48,11 +48,11 @@ body {
    background: -moz-linear-gradient(top, #65a9d7, #3e779d);
    background: -ms-linear-gradient(top, #65a9d7, #3e779d);
    background: -o-linear-gradient(top, #65a9d7, #3e779d);
-   background-image: -ms-linear-gradient(top, #65a9d7 0%, #3e779d 100%);
-   padding: 6.5px 13px;
-   -webkit-border-radius: 7px;
-   -moz-border-radius: 7px;
-   border-radius: 7px;
+   /*background-image: -ms-linear-gradient(top, #65a9d7 0%, #3e779d 100%);*/
+   padding: 5.5px 12px;
+   -webkit-border-radius: 700px;
+   -moz-border-radius: 700px;
+   border-radius: 700px;
    -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
    -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
    box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
@@ -61,7 +61,7 @@ body {
    font-size: 15px;
    font-family: helvetica, serif;
    text-decoration: none;
-   vertical-align: middle;
+   /*vertical-align: middle;*/
    }
 .button:hover {
    border: 0px solid #0a3c59;
@@ -125,5 +125,7 @@ footer {
     border-top: 1px solid #7BAFD4;
     margin: 20;
     padding: 10;
+    position: fixed;
+    bottom: 0;
     /*border: 1px solid blue;*/
 }
