@@ -2,7 +2,7 @@
 ini_set('display_errors',1);
  error_reporting(E_ALL);
  
- $servername = "localhost";
+ $servername = "45.55.52.107";
  $username = "root";
  $password = "lDragon5";
  $dbname = "nouns";
